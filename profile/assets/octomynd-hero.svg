@@ -1,0 +1,117 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420">
+      <stop stop-color="#070a1d"/>
+      <stop offset="0.52" stop-color="#0a0e27"/>
+      <stop offset="1" stop-color="#111640"/>
+    </linearGradient>
+    <linearGradient id="wordPink" x1="240" y1="230" x2="560" y2="230">
+      <stop stop-color="#ff2df1"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="wordCyan" x1="560" y1="230" x2="960" y2="230">
+      <stop stop-color="#00f0ff"/>
+      <stop offset="1" stop-color="#37f7ff"/>
+    </linearGradient>
+    <linearGradient id="octoBody" x1="525" y1="62" x2="677" y2="182">
+      <stop stop-color="#ff2df1"/>
+      <stop offset="1" stop-color="#c41fb8"/>
+    </linearGradient>
+    <linearGradient id="tentHot" x1="0" y1="130" x2="0" y2="270">
+      <stop stop-color="#ff2df1"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="tentDeep" x1="0" y1="130" x2="0" y2="270">
+      <stop stop-color="#d626c9"/>
+      <stop offset="1" stop-color="#7c1eb8"/>
+    </linearGradient>
+    <filter id="pinkGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" result="glow" values="1 0 0 0 1 0 0 0 0 0.17 0 0 1 0 0.95 0 0 0 0.85 0"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#26305f" stroke-opacity="0.38" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="34" fill="url(#grid)" opacity="0.42"/>
+  <circle cx="600" cy="165" r="230" fill="#ff2df1" opacity="0.13"/>
+  <circle cx="860" cy="300" r="260" fill="#00f0ff" opacity="0.10"/>
+  <circle cx="230" cy="90" r="180" fill="#a855f7" opacity="0.11"/>
+
+  <g opacity="0.65">
+    <circle cx="118" cy="92" r="2" fill="#ff2df1"/>
+    <circle cx="218" cy="314" r="2" fill="#00f0ff"/>
+    <circle cx="1000" cy="96" r="2" fill="#ff2df1"/>
+    <circle cx="1046" cy="318" r="2" fill="#00f0ff"/>
+    <circle cx="430" cy="74" r="1.7" fill="#e8eaff"/>
+    <circle cx="790" cy="78" r="1.7" fill="#e8eaff"/>
+  </g>
+
+  <g transform="translate(500 34)" filter="url(#pinkGlow)">
+    <g>
+      <path d="M55 105 C30 130,15 155,25 175 C30 182,40 178,38 170 C35 158,45 140,60 125" stroke="url(#tentHot)" stroke-width="10" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="-3 55 105;7 55 105;-3 55 105" dur="2.6s" repeatCount="indefinite"/>
+      </path>
+      <path d="M70 110 C55 140,40 165,50 185 C55 192,63 188,62 180 C58 165,65 145,78 128" stroke="url(#tentHot)" stroke-width="10" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="5 70 110;-4 70 110;5 70 110" dur="2.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M88 118 C80 148,72 172,82 190 C86 196,94 192,93 184 C90 170,92 150,98 132" stroke="url(#tentDeep)" stroke-width="11" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="-2 88 118;6 88 118;-2 88 118" dur="2.8s" repeatCount="indefinite"/>
+      </path>
+      <path d="M105 120 C105 150,100 175,108 192 C112 198,118 194,117 186 C114 172,112 152,110 135" stroke="url(#tentDeep)" stroke-width="11" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="3 105 120;-4 105 120;3 105 120" dur="2.4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M120 118 C125 148,130 172,125 190 C122 196,115 192,116 184 C118 170,122 150,122 132" stroke="url(#tentDeep)" stroke-width="11" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="-3 120 118;5 120 118;-3 120 118" dur="2.5s" repeatCount="indefinite"/>
+      </path>
+      <path d="M135 110 C150 140,162 165,155 185 C152 192,144 188,145 180 C148 165,142 145,132 128" stroke="url(#tentHot)" stroke-width="10" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="4 135 110;-6 135 110;4 135 110" dur="2.3s" repeatCount="indefinite"/>
+      </path>
+      <path d="M145 105 C168 130,180 155,172 175 C168 182,158 178,160 170 C163 158,155 140,142 125" stroke="url(#tentHot)" stroke-width="10" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="3 145 105;-7 145 105;3 145 105" dur="2.7s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <path d="M75 55 C60 40,50 30,55 22 C58 18,65 22,63 28 C60 36,68 45,78 52" stroke="url(#tentHot)" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="100" cy="75" rx="52" ry="45" fill="url(#octoBody)">
+      <animateTransform attributeName="transform" type="scale" values="1 1;1.03 .98;1 1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <line x1="85" y1="60" x2="78" y2="75" stroke="#00f0ff" stroke-opacity="0.25"/>
+    <line x1="78" y1="75" x2="90" y2="85" stroke="#00f0ff" stroke-opacity="0.25"/>
+    <line x1="85" y1="60" x2="115" y2="68" stroke="#00f0ff" stroke-opacity="0.18"/>
+    <circle cx="85" cy="60" r="2.5" fill="#00f0ff" opacity="0.65"/>
+    <circle cx="78" cy="75" r="2.5" fill="#00f0ff" opacity="0.65"/>
+    <circle cx="90" cy="85" r="2.5" fill="#00f0ff" opacity="0.65"/>
+    <g>
+      <circle cx="115" cy="68" r="17" fill="#00f0ff"/>
+      <circle cx="115" cy="68" r="10.5" fill="#071027"/>
+      <ellipse cx="115" cy="68" rx="6.2" ry="3.2" fill="#00f0ff">
+        <animate attributeName="ry" values="3.2;0.25;3.2" dur="4.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <circle cx="109" cy="62" r="2.4" fill="#e8eaff" opacity="0.9"/>
+    </g>
+    <circle cx="32" cy="170" r="2.8" fill="#00f0ff" opacity="0.75"/>
+    <circle cx="55" cy="180" r="2.8" fill="#00f0ff" opacity="0.75"/>
+    <circle cx="86" cy="186" r="2.8" fill="#00f0ff" opacity="0.75"/>
+    <circle cx="112" cy="188" r="2.8" fill="#00f0ff" opacity="0.75"/>
+    <circle cx="140" cy="182" r="2.8" fill="#00f0ff" opacity="0.75"/>
+    <circle cx="165" cy="172" r="2.8" fill="#00f0ff" opacity="0.75"/>
+  </g>
+
+  <g font-family="Orbitron, Arial, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="492" y="294" font-size="96" fill="url(#wordPink)" letter-spacing="-7">octo</text>
+    <text x="708" y="294" font-size="96" fill="url(#wordCyan)" letter-spacing="-7">mynd</text>
+  </g>
+
+  <text x="600" y="336" text-anchor="middle" fill="#e8eaff" opacity="0.92" font-family="Outfit, Arial, sans-serif" font-size="25" font-weight="700">
+    Seus dados já sabem a resposta. Ele organiza a conversa.
+  </text>
+  <text x="600" y="370" text-anchor="middle" fill="#8b8fa8" font-family="Space Mono, monospace" font-size="15">
+    open-source · structured rag · schema mapeado · contexto de negócio · sql seguro
+  </text>
+</svg>
