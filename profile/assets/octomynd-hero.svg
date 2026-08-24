@@ -109,9 +109,9 @@
   </g>
 
   <text x="600" y="336" text-anchor="middle" fill="#e8eaff" opacity="0.92" font-family="Outfit, Arial, sans-serif" font-size="25" font-weight="700">
-    Seus dados já sabem a resposta. Ele organiza a conversa.
+    Software aberto para conectar contexto, modelos e ação.
   </text>
   <text x="600" y="370" text-anchor="middle" fill="#8b8fa8" font-family="Space Mono, monospace" font-size="15">
-    open-source · structured rag · schema mapeado · contexto de negócio · sql seguro
+    open-source · ai agents · local-first · multi-provider workflows
   </text>
 </svg>

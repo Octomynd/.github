@@ -1,75 +1,65 @@
 <div align="center">
-  <img src="./assets/octomynd-hero.svg" alt="Octomynd — Structured RAG Studio" width="100%" />
+  <img src="./assets/octomynd-hero.svg" alt="Octomynd — open-source AI systems" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <a href="https://github.com/Octomynd/octomynd-landing">
-    <img alt="Landing build passing" src="https://img.shields.io/badge/build-passing-00f0ff?style=for-the-badge&labelColor=0a0e27" />
+  <a href="https://github.com/Everson-s8/octomynd-maestro/actions">
+    <img alt="Maestro CI" src="https://img.shields.io/github/actions/workflow/status/Everson-s8/octomynd-maestro/ci.yml?branch=main&style=for-the-badge&label=Maestro%20CI" />
   </a>
-  <img alt="Coverage target 90%" src="https://img.shields.io/badge/coverage-target%2090%25-ff2df1?style=for-the-badge&labelColor=0a0e27" />
   <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-a855f7?style=for-the-badge&labelColor=0a0e27" />
-  <a href="https://github.com/Everson-s8/octomynd/issues">
-    <img alt="Open issues" src="https://img.shields.io/badge/issues-open%20for%20triage-e8eaff?style=for-the-badge&labelColor=0a0e27&color=8b8fa8" />
+  <a href="https://github.com/Everson-s8/octomynd-maestro/issues">
+    <img alt="Open issues" src="https://img.shields.io/github/issues/Everson-s8/octomynd-maestro?style=for-the-badge&label=issues" />
   </a>
 </div>
 
 <br />
 
 <p align="center">
-  <strong>Octomynd é um Structured RAG Studio para conversar com dados estruturados usando schema mapeado, contexto de negócio e SQL seguro.</strong>
+  <strong>Open-source software for local-first AI agents and multi-provider LLM workflows.</strong>
 </p>
 
 <p align="center">
-  PostgreSQL first · local-first · open-source · BYO model · SQL read-only validado
+  local-first · open-source · bring your own provider · auditable workflows
 </p>
 
 ---
 
-## O que é
+## What Octomynd is
 
-Octomynd nasce de uma ideia simples: **perguntar para um banco de dados não deveria depender de chute, prompt solto ou dashboard engessado**.
+Octomynd builds focused tools for working with AI systems without hiding the important decisions behind a black box.
 
-Ele conecta em uma base estruturada, entende o schema, recebe contexto de negócio e transforma perguntas em consultas SQL revisáveis. A resposta precisa vir com trilha: qual contexto foi usado, qual SQL foi gerado e quando o sistema não tem base suficiente para responder.
+The ecosystem is local-first and provider-agnostic: people bring their own accounts, models and credentials, while the tools make context, execution and failure visible.
 
-> **Não é chatbot genérico. É um tradutor de intenção para dados estruturados.**
+> **The goal is useful automation with an inspectable path from intent to result.**
 
-## Como ele pensa
+## Featured project
 
-| Camada | Papel |
+| Project | Description |
 | --- | --- |
-| **Fonte de dados** | PostgreSQL/Data Warehouse como origem inicial do produto. |
-| **Schema mapeado** | Tabelas, colunas, tipos e relações viram contexto navegável. |
-| **Contexto semântico** | Glossário, regras, filtros padrão e notas reduzem resposta genérica. |
-| **SQL seguro** | Consultas read-only validadas antes de executar. |
-| **Resposta auditável** | Resposta final com SQL e interpretação, sem esconder a mecânica. |
+| [**Maestro**](https://github.com/Everson-s8/octomynd-maestro) | Open-source desktop and CLI orchestrator for multi-provider LLM workflows, governed tasks and local execution. |
 
-## Projetos
+The Maestro beta is the current public release focus. Its documentation is available at [docs.octomynd.com/maestro](https://docs.octomynd.com/maestro).
 
-| Repositório | Descrição |
-| --- | --- |
-| [`octomynd`](https://github.com/Everson-s8/octomynd) | App principal: backend FastAPI, frontend React/Next e desktop Tauri. |
-| [`octomynd-landing`](https://github.com/Octomynd/octomynd-landing) | Landing pública com a identidade rosa/neon do mascote Octomynd. |
-| [`.github`](https://github.com/Octomynd/.github) | Perfil público e metadados da organização. |
+The documentation and landing source repositories are maintained privately while their published sites are prepared for public access.
 
-## Princípios
+## Principles
 
-- **Controle antes de mágica:** o usuário escolhe provider, modelo, API key e ambiente.
-- **SQL visível:** se uma resposta depende de consulta, a consulta precisa aparecer.
-- **Contexto importa:** schema puro não carrega regra de negócio sozinho.
-- **Local-first:** desenvolvimento e uso individual sem depender de servidor central da organização.
-- **Sem falsa certeza:** se a pergunta é fora do escopo, o produto precisa dizer isso.
+- **Control before magic:** the user chooses providers, models, credentials and environments.
+- **Local-first by default:** personal data and credentials stay on the user's machine.
+- **Visible execution:** tasks, tool calls, failures and reviews should be inspectable.
+- **Provider choice:** no single model or vendor should be required by the product.
+- **No false certainty:** systems should expose gaps instead of inventing confidence.
 
 ## Status
 
-Octomynd está em MVP ativo. A base já existe, mas o padrão antes do lançamento público é maior:
+Octomynd is an active open-source project. Maestro is currently in public beta preparation:
 
-- melhorar qualidade das respostas;
-- endurecer tratamento de perguntas fora de contexto;
-- evoluir prompt profiles e contexto semântico;
-- criar bases de teste reproduzíveis;
-- preparar uma experiência mínima viável para instalação e uso por terceiros.
+- improving the first-run experience;
+- validating desktop distribution on clean machines;
+- expanding provider and task recovery coverage;
+- collecting feedback from early users.
 
 ## Mascote
 
@@ -85,7 +75,9 @@ Octomynd está em MVP ativo. A base já existe, mas o padrão antes do lançamen
 ---
 
 <p align="center">
-  <a href="https://github.com/Octomynd/octomynd-landing"><strong>Ver landing</strong></a>
+  <a href="https://github.com/Everson-s8/octomynd-maestro"><strong>View Maestro</strong></a>
   ·
-  <a href="https://github.com/Everson-s8/octomynd"><strong>Ver projeto principal</strong></a>
+  <a href="https://docs.octomynd.com/maestro"><strong>Read the docs</strong></a>
+  ·
+  <a href="https://github.com/Everson-s8/octomynd-maestro/discussions"><strong>Join the discussion</strong></a>
 </p>
