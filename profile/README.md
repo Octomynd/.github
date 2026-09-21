@@ -5,12 +5,12 @@
 <br />
 
 <div align="center">
-  <a href="https://github.com/Everson-s8/octomynd-maestro/actions">
-    <img alt="Maestro CI" src="https://img.shields.io/github/actions/workflow/status/Everson-s8/octomynd-maestro/ci.yml?branch=main&style=for-the-badge&label=Maestro%20CI" />
+  <a href="https://github.com/Octomynd/octomynd-maestro/actions">
+    <img alt="Maestro CI" src="https://img.shields.io/github/actions/workflow/status/Octomynd/octomynd-maestro/ci.yml?branch=main&style=for-the-badge&label=Maestro%20CI" />
   </a>
   <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-a855f7?style=for-the-badge&labelColor=0a0e27" />
-  <a href="https://github.com/Everson-s8/octomynd-maestro/issues">
-    <img alt="Open issues" src="https://img.shields.io/github/issues/Everson-s8/octomynd-maestro?style=for-the-badge&label=issues" />
+  <a href="https://github.com/Octomynd/octomynd-maestro/issues">
+    <img alt="Open issues" src="https://img.shields.io/github/issues/Octomynd/octomynd-maestro?style=for-the-badge&label=issues" />
   </a>
 </div>
 
@@ -46,9 +46,9 @@ The products share the Octomynd principles, but each has its own job, repository
 | Project | Description |
 | --- | --- |
 | [**Octomynd**](https://docs.octomynd.com/en/octomynd/) | Governed data-warehouse management and analytics with schema-aware context, validated SQL, and inspectable evidence. |
-| [**Maestro**](https://github.com/Everson-s8/octomynd-maestro) | Open-source desktop and CLI orchestrator for multi-provider LLM workflows, governed tasks and local execution. |
+| [**Maestro**](https://github.com/Octomynd/octomynd-maestro) | Open-source desktop and CLI orchestrator for multi-provider LLM workflows, governed tasks and local execution. |
 
-The current public Maestro release is [v0.3.6](https://github.com/Everson-s8/octomynd-maestro/releases/tag/v0.3.6). Start with the canonical [Octomynd documentation](https://docs.octomynd.com/en/), the [Octomynd product guide](https://docs.octomynd.com/en/octomynd/), or the [Maestro guide](https://docs.octomynd.com/en/maestro/).
+The current public Maestro release is [v0.3.6](https://github.com/Octomynd/octomynd-maestro/releases/tag/v0.3.6). Start with the canonical [Octomynd documentation](https://docs.octomynd.com/en/), the [Octomynd product guide](https://docs.octomynd.com/en/octomynd/), or the [Maestro guide](https://docs.octomynd.com/en/maestro/).
 
 Product source repositories, documentation, and landing pages evolve independently while the published ecosystem remains connected through the Octomynd brand.
 
@@ -82,9 +82,9 @@ Octomynd is an active open-source brand and project family:
 ---
 
 <p align="center">
-  <a href="https://github.com/Everson-s8/octomynd-maestro"><strong>View Maestro</strong></a>
+  <a href="https://github.com/Octomynd/octomynd-maestro"><strong>View Maestro</strong></a>
   ·
   <a href="https://docs.octomynd.com/en/"><strong>Read the docs</strong></a>
   ·
-  <a href="https://github.com/Everson-s8/octomynd-maestro/discussions"><strong>Join the discussion</strong></a>
+  <a href="https://github.com/Octomynd/octomynd-maestro/discussions"><strong>Join the discussion</strong></a>
 </p>
