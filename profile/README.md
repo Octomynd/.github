@@ -28,11 +28,16 @@
 
 ## What Octomynd is
 
-Octomynd is an open-source product ecosystem for building useful AI systems without hiding important decisions behind a black box.
+Octomynd is both the umbrella brand and a family of open-source products for building useful AI systems without hiding important decisions behind a black box.
 
 The ecosystem is local-first and provider-agnostic: people bring their own accounts, models and credentials, while the tools keep context, execution, failure, and evidence visible.
 
-Octomynd is broader than any single analytics, data-warehouse, or SQL product. Maestro is the current public focus; future products will join the ecosystem when they are ready.
+The brand currently brings together two complementary products:
+
+- **Octomynd** — the data-warehouse manager and governed analytics product, connecting schemas, context, SQL, and evidence to make data work more reliable.
+- **Maestro** — the harness for coding agents and software delivery, coordinating providers, tasks, worktrees, tests, reviews, and pull requests.
+
+The products share the Octomynd principles, but each has its own job, repository, release history, and security boundary.
 
 > **The goal is useful automation with an inspectable path from intent to result.**
 
@@ -40,9 +45,10 @@ Octomynd is broader than any single analytics, data-warehouse, or SQL product. M
 
 | Project | Description |
 | --- | --- |
+| [**Octomynd**](https://docs.octomynd.com/en/octomynd/) | Governed data-warehouse management and analytics with schema-aware context, validated SQL, and inspectable evidence. |
 | [**Maestro**](https://github.com/Everson-s8/octomynd-maestro) | Open-source desktop and CLI orchestrator for multi-provider LLM workflows, governed tasks and local execution. |
 
-The current public release is [Maestro v0.3.6](https://github.com/Everson-s8/octomynd-maestro/releases/tag/v0.3.6). Start with the canonical [Octomynd documentation](https://docs.octomynd.com/en/) or the [Maestro guide](https://docs.octomynd.com/en/maestro/).
+The current public Maestro release is [v0.3.6](https://github.com/Everson-s8/octomynd-maestro/releases/tag/v0.3.6). Start with the canonical [Octomynd documentation](https://docs.octomynd.com/en/), the [Octomynd product guide](https://docs.octomynd.com/en/octomynd/), or the [Maestro guide](https://docs.octomynd.com/en/maestro/).
 
 Product source repositories, documentation, and landing pages evolve independently while the published ecosystem remains connected through the Octomynd brand.
 
@@ -56,11 +62,10 @@ Product source repositories, documentation, and landing pages evolve independent
 
 ## Status
 
-Octomynd is an active open-source project. Maestro is the current public product:
+Octomynd is an active open-source brand and project family:
 
-- improving context-aware Chat and Goal recovery;
-- validating desktop distribution on clean machines;
-- expanding provider, background execution, and review coverage;
+- Octomynd is evolving its data-warehouse management and governed analytics experience;
+- Maestro is improving context-aware Chat, Goal recovery, background execution, and review coverage;
 - documenting and collecting feedback from the open-source community.
 
 ## Mascote
@@ -71,7 +76,7 @@ Octomynd is an active open-source project. Maestro is the current public product
 
 <p align="center">
   <strong>O polvo não é decoração. Ele é a marca.</strong><br />
-  Cada tentáculo representa uma capacidade conectada — contexto, execução, providers, ferramentas e evidências — sob um mesmo plano de controle.
+  Cada tentáculo representa um produto ou capacidade conectada da marca — no Octomynd, schema, contexto, SQL e evidências; no Maestro, agentes, tasks, execução e revisão — sob princípios open-source comuns.
 </p>
 
 ---
